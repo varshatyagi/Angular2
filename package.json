@@ -1,0 +1,31 @@
+{
+  "name": "Angular2",
+  "version": "1.0.0",
+  "description": "Create an app in Angular2 : Phase 1 :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc & concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varshatyagi/Angular2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varshatyagi/Angular2/issues"
+  },
+  "homepage": "https://github.com/varshatyagi/Angular2#readme",
+  "dependencies": {
+    "lite-server": "^2.3.0",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.1"
+  }
+}
